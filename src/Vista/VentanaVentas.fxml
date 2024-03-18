@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="844.0" prefWidth="1200.0" style="-fx-background-color: E0C59D;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="398.0" layoutY="50.0" text="Gestor de Ventas JKD" textFill="#a86f1f">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="89.0" layoutY="145.0" prefHeight="581.0" prefWidth="1060.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <ImageView fitHeight="92.0" fitWidth="136.0" layoutX="36.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@casco-spartan-wolf-verde-negro-mate.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="91.0" fitWidth="136.0" layoutX="36.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@guantes-rev-039-it-fly-3-negro.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="91.0" fitWidth="136.0" layoutX="36.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@intercomunicador-cardo-freecom-2x-unidad.jpg" />
+               </image>
+            </ImageView>
+            <Separator layoutX="14.0" layoutY="151.0" prefHeight="0.0" prefWidth="1033.0" />
+            <Separator layoutX="14.0" layoutY="300.0" prefHeight="0.0" prefWidth="1033.0" />
+            <Separator layoutX="14.0" layoutY="417.0" prefHeight="0.0" prefWidth="1033.0" />
+            <ScrollBar layoutX="1017.0" orientation="VERTICAL" prefHeight="421.0" prefWidth="43.0" />
+            <Button fx:id="pagarBTN" layoutX="896.0" layoutY="480.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="111.0" style="-fx-background-color: #D1A666;" text="PAGAR" />
+            <Label layoutX="221.0" layoutY="73.0" text="Cas-12345" />
+            <Label layoutX="221.0" layoutY="215.0" text="Com-123" />
+            <Label layoutX="221.0" layoutY="350.0" text="Gua-12" />
+            <Label layoutX="329.0" layoutY="73.0" text="Casco Spartan" />
+            <Label layoutX="302.0" layoutY="215.0" text="Intercomunicador Cardo" />
+            <Label layoutX="308.0" layoutY="350.0" text="Guantes SPartan" />
+            <Label layoutX="36.0" layoutY="455.0" text="Vendedor">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="36.0" layoutY="501.0" text="Cliente">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="251.0" layoutY="456.0" text="ID factura">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="742.0" layoutY="464.0" text="Total a pagar">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="760.0" layoutY="502.0" text="1'200.000">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="120.0" layoutY="458.0" text="JULIAN" />
+            <Label layoutX="120.0" layoutY="503.0" text="ANDRES" />
+            <Label layoutX="344.0" layoutY="458.0" text="546186" />
+            <Label layoutX="507.0" layoutY="77.0" text="\$500.000" />
+            <Label layoutX="506.0" layoutY="215.0" text="\$400.000" />
+            <Label layoutX="506.0" layoutY="350.0" text="\$300.000" />
+            <Label layoutX="666.0" layoutY="77.0" text="1 UND" />
+            <Label layoutX="666.0" layoutY="207.0" text="1 UND" />
+            <Label layoutX="666.0" layoutY="342.0" text="1 UND" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="atrasBTN" layoutX="545.0" layoutY="754.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="111.0" style="-fx-background-color: #D1A666;" text="ATRAS" />
+   </children>
+</AnchorPane>
